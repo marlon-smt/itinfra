@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Config
+clusters:
+- name: "aks-88fde8"
+  cluster:
+    server: "https://rancher.chfrank.net/k8s/clusters/c-2tb6z"
+
+users:
+- name: "aks-88fde8"
+  user:
+    token: "kubeconfig-u-8s8bw4stv4:7988k44d29hhfhlgk72ffkk6h7ps2p996dk6c7bgz7995gg5txwd9m"
+
+
+contexts:
+- name: "aks-88fde8"
+  context:
+    user: "aks-88fde8"
+    cluster: "aks-88fde8"
+
+current-context: "aks-88fde8"
