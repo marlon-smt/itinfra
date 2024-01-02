@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: cf-web-svr
+  name: ms-web-svr
   namespace: fom
 spec:
   replicas: 1
